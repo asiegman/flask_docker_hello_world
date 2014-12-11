@@ -25,3 +25,4 @@ VBoxManage modifyvm "boot2docker-vm" --natpf1 "Flask5000,tcp,,25000,,5000"
 boot2docker up
 ```
 
+Your app would then be available on your local Mac host at http://127.0.0.1:25000
